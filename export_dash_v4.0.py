@@ -8,10 +8,10 @@ import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning) #Disable ssl - warning
 
-SUPERSET_USERNAME = "ext_mdzhamaldinov"
+SUPERSET_USERNAME = "USER"
 SUPERSET_PASSWORD = "PASS"
-SUPERSET_DOMAIN = "https://smsk02ap784d:8080/"
-output_dir = "C:\\Users\\ext_mdzhamaldinov\\Desktop\\ss_api\\dashb\\exported"
+SUPERSET_DOMAIN = "https://HOST:PORT/"
+output_dir = "C:\\Users\\USERNAME\\Desktop\\ss_api\\dashb\\exported"
 
 now = str(datetime.now().date())
 if not os.path.exists(os.path.join(output_dir, now)):

@@ -29,8 +29,8 @@ python export_dash_v4.0.py -s all
 # Экспорт дашборда с ID = 5  
 python export_dash_v4.0.py -n 5  
 
-Импорт
-bash
+### **Импорт** 
+```bash
 python import_script.py  
 ⚠️ Важно
 Отключение проверки SSL (verify=False) снижает безопасность соединения. Используйте только в доверенных сетях или с самоподписанными сертификатами.

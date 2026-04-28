@@ -39,10 +39,7 @@ python export_dash_v4.0.py -n <ID_DASHBOARD>
 
 bash
 git clone https://github.com/krab16/Superset_api.git
-Установите зависимости:
 
-bash
-pip install -r requirements.txt
 Запустите нужный скрипт с параметрами:
 
 Параметр	Описание	Пример
